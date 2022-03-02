@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+    <title>Подсказки по организациям</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="form">
+
+            <div class="elemInput">
+                <h3>Компания или ИП</h3>
+                <input oninput="hint(this.value)" class="inputCompany" type="text">
+            </div>
+
+            <div class="hints">
+
+                <div class="hintOne">
+                    <h4 class="titleOne"></h4>
+                    <div class="innAndAddress">
+                        <p class="innOne"></p>
+                        <p class="addressOne"></p>
+                    </div>
+                </div>
+
+                <div class="hintTwo">
+                    <h4 class="titleTwo"></h4>
+                    <div class="innAndAddress">
+                        <p class="innTwo"></p>
+                        <p class="addressTwo"></p>
+                    </div>
+                </div>
+
+                <div class="hintThree">
+                    <h4 class="titleThree"></h4>
+                    <div class="innAndAddress">
+                        <p class="innThree"></p>
+                        <p class="addressThree"></p>
+                    </div>
+                </div>
+
+                <div class="hintFour">
+                    <h4 class="titleFour"></h4>
+                    <div class="innAndAddress">
+                        <p class="innFour"></p>
+                        <p class="addressFour"></p>
+                    </div>
+                </div>
+
+                <div class="hintFive">
+                    <h4 class="titleFive"></h4>
+                    <div class="innAndAddress">
+                        <p class="innFive"></p>
+                        <p class="addressFive"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="elemInput">
+                <p>Краткое наименование</p>
+                <input class="inputName" type="text">
+            </div>
+
+            <div class="elemInput">
+                <p>Полное наименование</p>
+                <input class="inputFullName" type="text">
+            </div>
+
+            <div class="elemInput">
+                <p>ИНН/КПП</p>
+                <input class="inputINN" type="text">
+            </div>
+
+            <div class="elemInput">
+                <p>Адрес</p>
+                <input class="inputAddress" type="text">
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
